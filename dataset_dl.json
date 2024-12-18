@@ -1,0 +1,226 @@
+{
+  "intens": [
+    {
+      "tag": "salam",
+      "patterns": [
+        "Halo",
+        "Hai",
+        "Selamat pagi",
+        "Selamat siang",
+        "Apa kabar?"
+      ],
+      "responses": [
+        "Halo! Ada yang bisa saya bantu?",
+        "Hai! Bagaimana saya bisa membantu Anda?",
+        "Selamat datang! Apa yang Anda perlukan?"
+      ]
+    },
+    {
+      "tag": "perpisahan",
+      "patterns": [
+        "Sampai jumpa",
+        "Dadah",
+        "Selamat tinggal",
+        "Saya pergi dulu",
+        "Sampai nanti"
+      ],
+      "responses": [
+        "Sampai jumpa lagi!",
+        "Semoga harimu menyenangkan!",
+        "Hati-hati di jalan!",
+        "Sampai bertemu lagi!"
+      ]
+    },
+    {
+      "tag": "terima_kasih",
+      "patterns": [
+        "Terima kasih",
+        "Makasih",
+        "Thanks",
+        "Terima kasih banyak",
+        "Saya berterima kasih"
+      ],
+      "responses": [
+        "Sama-sama!",
+        "Dengan senang hati.",
+        "Saya senang bisa membantu.",
+        "Tidak perlu berterima kasih, itu tugas saya!"
+      ]
+    },
+    {
+      "tag": "bantuan",
+      "patterns": [
+        "Bisa bantu saya?",
+        "Saya butuh bantuan",
+        "Tolong saya",
+        "Apa Anda bisa membantu?",
+        "Saya membutuhkan bantuan"
+      ],
+      "responses": [
+        "Tentu, bagaimana saya bisa membantu?",
+        "Saya di sini untuk membantu Anda.",
+        "Silakan beri tahu apa yang Anda butuhkan."
+      ]
+    },
+    {
+      "tag": "cuaca",
+      "patterns": [
+        "Bagaimana cuaca hari ini?",
+        "Apakah hari ini akan hujan?",
+        "Cerah atau mendung hari ini?",
+        "Cuaca hari ini seperti apa?"
+      ],
+      "responses": [
+        "Saya tidak memiliki informasi cuaca terkini, tapi semoga hari ini cerah!",
+        "Anda bisa memeriksa prakiraan cuaca di aplikasi cuaca favorit Anda.",
+        "Cuaca sangat tergantung lokasi, mungkin baik untuk membawa payung jika ragu."
+      ]
+    },
+    {
+      "tag": "nama",
+      "patterns": [
+        "Siapa namamu?",
+        "Apa nama kamu?",
+        "Kamu dipanggil siapa?",
+        "Nama kamu siapa?"
+      ],
+      "responses": [
+        "Nama saya adalah Chatbot! Saya di sini untuk membantu Anda.",
+        "Saya Chatbot generatif, senang berkenalan dengan Anda.",
+        "Anda bisa memanggil saya Chatbot."
+      ]
+    },
+    {
+      "tag": "lokasi",
+      "patterns": [
+        "Di mana kamu tinggal?",
+        "Kamu ada di mana?",
+        "Kamu berasal dari mana?",
+        "Lokasimu di mana?"
+      ],
+      "responses": [
+        "Saya tinggal di dalam komputer Anda.",
+        "Saya tidak memiliki lokasi fisik, saya hanya sebuah program.",
+        "Saya ada di mana pun Anda membutuhkan saya."
+      ]
+    },
+    {
+      "tag": "hobi",
+      "patterns": [
+        "Apa hobi kamu?",
+        "Apa yang kamu suka lakukan?",
+        "Kamu suka apa?",
+        "Hobi kamu apa?"
+      ],
+      "responses": [
+        "Saya suka membantu Anda dengan pertanyaan apa pun.",
+        "Hobi saya adalah belajar hal baru setiap hari.",
+        "Karena saya adalah chatbot, saya suka menjawab pertanyaan Anda!"
+      ]
+    },
+    {
+      "tag": "waktu",
+      "patterns": [
+        "Jam berapa sekarang?",
+        "Berapa sekarang jam?",
+        "Apa waktu saat ini?",
+        "Sekarang pukul berapa?"
+      ],
+      "responses": [
+        "Saya tidak tahu waktu saat ini, tapi Anda bisa memeriksa jam di perangkat Anda.",
+        "Waktu adalah ilusi untuk saya, tetapi saya harap hari Anda menyenangkan!",
+        "Silakan cek jam tangan Anda untuk waktu yang tepat."
+      ]
+    },
+    {
+      "tag": "makanan",
+      "patterns": [
+        "Apa makanan favoritmu?",
+        "Kamu suka makan apa?",
+        "Makanan apa yang kamu suka?",
+        "Apa makanan yang enak?"
+      ],
+      "responses": [
+        "Saya tidak makan, tetapi saya dengar nasi goreng enak!",
+        "Makanan favorit saya adalah data mentah, tapi manusia suka rendang.",
+        "Semua makanan enak tergantung pada selera Anda."
+      ]
+    },
+    {
+      "tag": "kabar_baik",
+      "patterns": [
+        "Apa kabar baik hari ini?",
+        "Berita baik apa hari ini?",
+        "Kabar baik apa yang kamu tahu?",
+        "Ada kabar baik?"
+      ],
+      "responses": [
+        "Kabar baik adalah Anda sedang berbicara dengan saya!",
+        "Saya harap kabar baik hari ini adalah hari Anda luar biasa.",
+        "Setiap hari memiliki kabar baik jika kita mencarinya!"
+      ]
+    },
+    {
+      "tag": "keluarga",
+      "patterns": [
+        "Kamu punya keluarga?",
+        "Siapa keluargamu?",
+        "Apa kamu tinggal dengan keluarga?",
+        "Keluarga kamu ada di mana?"
+      ],
+      "responses": [
+        "Saya tidak memiliki keluarga, tetapi saya senang membantu Anda.",
+        "Sebagai program, saya tidak memiliki keluarga fisik.",
+        "Anda adalah bagian dari interaksi saya yang paling berarti!"
+      ]
+    },
+    {
+      "tag": "tan_malaka_biografi",
+      "patterns": [
+        "Siapa Tan Malaka?",
+        "Apa yang kamu tahu tentang Tan Malaka?",
+        "Kapan dan di mana Tan Malaka lahir?"
+      ],
+      "responses": [
+        "Tan Malaka adalah seorang pemimpin revolusioner dan intelektual asal Indonesia yang lahir pada 2 Juni 1897 di Nagari Pandan Gadang, Sumatera Barat.",
+        "Ia dikenal sebagai tokoh yang memperjuangkan kemerdekaan Indonesia dengan gagasan revolusionernya."
+      ]
+    },
+    {
+      "tag": "tan_malaka_karya",
+      "patterns": [
+        "Apa karya Tan Malaka?",
+        "Buku apa yang ditulis oleh Tan Malaka?",
+        "Apa itu Madilog?"
+      ],
+      "responses": [
+        "Tan Malaka menulis beberapa karya seperti 'Madilog' dan 'Dari Pendjara ke Pendjara.'",
+        "'Madilog' adalah singkatan dari Materialisme, Dialektika, dan Logika, yang menjadi dasar pemikirannya."
+      ]
+    },
+    {
+      "tag": "tan_malaka_perjuangan",
+      "patterns": [
+        "Apa peran Tan Malaka dalam kemerdekaan?",
+        "Apa gagasan revolusi menurut Tan Malaka?",
+        "Bagaimana pandangan Tan Malaka tentang Indonesia?"
+      ],
+      "responses": [
+        "Tan Malaka mengusulkan Indonesia Merdeka 100% dalam rapat BPUPKI.",
+        "Ia percaya bahwa revolusi harus melibatkan rakyat dan pendidikan adalah kuncinya."
+      ]
+    },
+    {
+      "tag": "tan_malaka_filosofi",
+      "patterns": [
+        "Apa filosofi hidup Tan Malaka?",
+        "Apa pandangan Tan Malaka tentang rakyat?",
+        "Bagaimana Tan Malaka melihat perjuangan?"
+      ],
+      "responses": [
+        "Tan Malaka percaya pada kekuatan rakyat untuk menentukan nasib mereka sendiri.",
+        "Ia melihat pendidikan sebagai senjata utama dalam perjuangan untuk keadilan sosial."
+      ]
+    }
+  ]
+}
