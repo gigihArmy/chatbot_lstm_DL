@@ -10,7 +10,7 @@
         "Apa kabar?"
       ],
       "responses": [
-        "Halo! Ada yang bisa saya bantu?",
+        "Halo Sobat Malaka! Ada yang bisa saya bantu?",
         "Hai! Bagaimana saya bisa membantu Anda?",
         "Selamat datang! Apa yang Anda perlukan?"
       ]
@@ -85,7 +85,7 @@
         "Nama kamu siapa?"
       ],
       "responses": [
-        "Nama saya adalah Chatbot! Saya di sini untuk membantu Anda.",
+        "Nama saya adalah Chatbot! Saya di sini untuk membantu menjawab pertanyaan mengenai Tan malaka.",
         "Saya Chatbot generatif, senang berkenalan dengan Anda.",
         "Anda bisa memanggil saya Chatbot."
       ]
@@ -113,7 +113,7 @@
         "Hobi kamu apa?"
       ],
       "responses": [
-        "Saya suka membantu Anda dengan pertanyaan apa pun.",
+        "Saya suka membantu Anda dengan pertanyaan tentang Tan Malaka.",
         "Hobi saya adalah belajar hal baru setiap hari.",
         "Karena saya adalah chatbot, saya suka menjawab pertanyaan Anda!"
       ]
@@ -161,20 +161,6 @@
       ]
     },
     {
-      "tag": "keluarga",
-      "patterns": [
-        "Kamu punya keluarga?",
-        "Siapa keluargamu?",
-        "Apa kamu tinggal dengan keluarga?",
-        "Keluarga kamu ada di mana?"
-      ],
-      "responses": [
-        "Saya tidak memiliki keluarga, tetapi saya senang membantu Anda.",
-        "Sebagai program, saya tidak memiliki keluarga fisik.",
-        "Anda adalah bagian dari interaksi saya yang paling berarti!"
-      ]
-    },
-    {
       "tag": "tan_malaka_biografi",
       "patterns": [
         "Siapa Tan Malaka?",
@@ -183,7 +169,20 @@
       ],
       "responses": [
         "Tan Malaka adalah seorang pemimpin revolusioner dan intelektual asal Indonesia yang lahir pada 2 Juni 1897 di Nagari Pandan Gadang, Sumatera Barat.",
-        "Ia dikenal sebagai tokoh yang memperjuangkan kemerdekaan Indonesia dengan gagasan revolusionernya."
+        "Ia dikenal sebagai tokoh yang memperjuangkan kemerdekaan Indonesia dengan gagasan revolusionernya.",
+        "Tan Malaka atau Ibrahim Gelar Datuk Sutan Malaka. Ia lahir pada 2 Juni 1897 di Nagari Pandan Gadang, Kecamatan Suliki, Kabupaten Limapuluh Kota, Sumatera Barat."
+      ]
+    },
+    {
+      "tag": "tan_malaka_pendidikan",
+      "patterns": [
+        "Di mana Tan Malaka bersekolah?",
+        "Apa pendidikan Tan Malaka?",
+        "Bagaimana perjalanan pendidikan Tan Malaka?"
+      ],
+      "responses": [
+        "Tan Malaka menempuh pendidikan di Sekolah Raja (Kweekschool) di Bukittinggi sebelum melanjutkan ke Rijkskweekschool di Haarlem, Belanda.",
+        "Pada tahun 1920, Tan Malaka melanjutkan pendidikan ke Belanda, di sana ia terlibat dalam kegiatan politik dan mendapatkan pengaruh kuat dari ideologi sosialisme dan komunisme."
       ]
     },
     {
@@ -194,7 +193,7 @@
         "Apa itu Madilog?"
       ],
       "responses": [
-        "Tan Malaka menulis beberapa karya seperti 'Madilog' dan 'Dari Pendjara ke Pendjara.'",
+        "Tan Malaka menulis beberapa karya seperti 'Madilog', 'Dari Pendjara ke Pendjara', dan 'Menuju Republik Indonesia'.",
         "'Madilog' adalah singkatan dari Materialisme, Dialektika, dan Logika, yang menjadi dasar pemikirannya."
       ]
     },
@@ -203,11 +202,12 @@
       "patterns": [
         "Apa peran Tan Malaka dalam kemerdekaan?",
         "Apa gagasan revolusi menurut Tan Malaka?",
-        "Bagaimana pandangan Tan Malaka tentang Indonesia?"
+        "Mengapa Tan Malaka dijuluki pahlawan revolusioner?"
       ],
       "responses": [
-        "Tan Malaka mengusulkan Indonesia Merdeka 100% dalam rapat BPUPKI.",
-        "Ia percaya bahwa revolusi harus melibatkan rakyat dan pendidikan adalah kuncinya."
+        "Tan Malaka dijuluki pahlawan revolusioner karena peran pentingnya dalam memperjuangkan kemerdekaan Indonesia melalui pemikiran, aksi nyata, dan kontribusi revolusioner terhadap perjuangan rakyat. Ia adalah pemimpin gerakan revolusioner, pengusung ideologi materialisme, dialektika, dan logika untuk perubahan sosial, serta pejuang yang tidak kenal lelah meski sering diasingkan dan dipenjara.",
+        "Tan Malaka memimpin berbagai gerakan revolusioner di dalam dan luar negeri, termasuk mendirikan Partai Murba dan memperkenalkan konsep perjuangan berbasis massa. Ia juga memiliki kontribusi dalam perjuangan internasional, berinteraksi dengan gerakan revolusioner di berbagai negara, serta menyusun strategi perang gerilya yang mempengaruhi banyak pejuang kemerdekaan Indonesia.",
+        "Tan Malaka dikenal sebagai pahlawan revolusioner karena pemikirannya yang mendalam mengenai revolusi dan perjuangan rakyat. Ia memperjuangkan kemerdekaan dengan mengutamakan kepentingan rakyat dan berani melawan segala bentuk penindasan. Tan Malaka juga meninggalkan warisan ideologis yang menginspirasi perjuangan kemerdekaan Indonesia hingga akhirnya gugur dalam perjuangan pada tahun 1949."
       ]
     },
     {
@@ -220,6 +220,386 @@
       "responses": [
         "Tan Malaka percaya pada kekuatan rakyat untuk menentukan nasib mereka sendiri.",
         "Ia melihat pendidikan sebagai senjata utama dalam perjuangan untuk keadilan sosial."
+      ]
+    },
+    {
+      "tag": "tan_malaka_ideologi",
+      "patterns": [
+        "Apa ideologi yang dianut oleh Tan Malaka?",
+        "Apa pandangan ideologi Tan Malaka?",
+        "Bagaimana Tan Malaka memandang ideologi sosial?"
+      ],
+      "responses": [
+        "Tan Malaka menganut ideologi materialisme dialektik dan marxisme yang dipengaruhi oleh pemikiran Karl Marx dan Friedrich Engels. Ia melihat perjuangan sosial dan kemerdekaan sebagai proses dialektik yang dipengaruhi oleh pertentangan antara kelas yang berkuasa dan kelas tertindas.",
+        "Ideologi Tan Malaka berfokus pada revolusi sosial yang melibatkan perubahan mendalam dalam struktur masyarakat. Ia mendorong perjuangan kelas pekerja dan petani dalam meraih kemerdekaan dan keadilan sosial, dengan mengutamakan pemberdayaan rakyat dan penghapusan ketimpangan sosial.",
+        "Tan Malaka percaya pada revolusi sosial yang bersifat radikal dan mencakup perubahan politik dan ekonomi, serta mendukung demokrasi sosial yang melibatkan rakyat dalam pengambilan keputusan. Ia juga sangat anti-kolonialisme dan imperialisme, serta memperjuangkan solidaritas internasional dalam perjuangan melawan penindasan."
+      ]
+    },
+    {
+      "tag": "tan_malaka_kematian",
+      "patterns": [
+        "Kapan Tan Malaka meninggal?",
+        "Bagaimana Tan Malaka meninggal?",
+        "Apa yang terjadi pada Tan Malaka di akhir hidupnya?"
+      ],
+      "responses": [
+        "Tan Malaka meninggal pada tahun 1949 karena dieksekusi oleh pasukan TNI akibat perbedaan ideologi dan konflik politik.",
+        "Meskipun demikian, ia dianugerahi gelar Pahlawan Nasional Indonesia pada tahun 1963."
+      ]
+    },
+    {
+      "tag": "tan_malaka_warisan",
+      "patterns": [
+        "Apa warisan Tan Malaka?",
+        "Apa karya Tan Malaka yang terkenal?",
+        "Apa yang membuat Tan Malaka berpengaruh?"
+      ],
+      "responses": [
+        "Warisan Tan Malaka termasuk gagasan revolusioner yang tercantum dalam buku seperti Madilog dan Dari Pendjara ke Pendjara.",
+        "Pemikirannya tentang pendidikan, persatuan nasional, dan keadilan sosial masih relevan hingga sekarang."
+      ]
+    },
+    {
+      "tag": "tan_malaka_kurang_dikenal",
+      "patterns": [
+        "Mengapa Tan Malaka tidak terkenal dalam sejarah Indonesia?",
+        "Kenapa Tan Malaka kurang dikenal di Indonesia?",
+        "Apa alasan Tan Malaka tidak banyak terdengar dalam sejarah kemerdekaan Indonesia?"
+      ],
+      "responses": [
+        "Tan Malaka kurang dikenal dalam sejarah Indonesia karena ideologi radikal yang dianutnya, yaitu materialisme dialektik dan marxisme, yang sering bertentangan dengan pemimpin Indonesia lainnya seperti Soekarno dan Hatta.",
+        "Tan Malaka juga terlibat dalam Komunis Internasional dan memiliki pandangan yang berbeda dalam perjuangan kemerdekaan, yang membuatnya terasingkan oleh pemerintah Indonesia pasca-kemerdekaan.",
+        "Selain itu, Tan Malaka pernah dipenjara dan diasingkan beberapa kali, membuat kontribusinya tidak sebanyak tokoh-tokoh lain yang lebih terlibat dalam pemerintahan. Kematian Tan Malaka yang misterius dan ketidakhadirannya dalam periode pasca kemerdekaan juga menyebabkan namanya kurang terdengar dalam sejarah Indonesia."
+      ]
+    },
+    {
+      "tag": "tan_malaka_soekarno",
+      "patterns": [
+        "Apa hubungan Tan Malaka dengan Soekarno sebelum kemerdekaan?",
+        "Tan Malaka dan Soekarno punya hubungan apa?",
+        "Bagaimana pandangan Tan Malaka tentang Soekarno?"
+      ],
+      "responses": [
+        "Tan Malaka dan Soekarno memiliki hubungan baik pada awalnya sebagai rekan seperjuangan di dalam organisasi pergerakan kemerdekaan Indonesia. Namun, seiring waktu, mereka terlibat dalam perbedaan ideologi yang semakin dalam, terutama mengenai strategi perjuangan. Tan Malaka lebih mendalami ideologi marxisme dan revolusi sosial, sementara Soekarno lebih mengedepankan nasionalisme dan persatuan bangsa."
+      ]
+    },
+    {
+      "tag": "tan_malaka_hatta",
+      "patterns": [
+        "Bagaimana hubungan Tan Malaka dengan Mohammad Hatta?",
+        "Apa perbedaan Tan Malaka dan Hatta dalam perjuangan kemerdekaan?",
+        "Mengapa Tan Malaka dan Hatta berseberangan?"
+      ],
+      "responses": [
+        "Tan Malaka dan Mohammad Hatta memiliki pandangan yang berbeda mengenai perjuangan kemerdekaan Indonesia. Hatta lebih moderat dan memilih jalur diplomasi dengan Belanda, sementara Tan Malaka lebih mendukung perjuangan revolusioner dan sosialisme yang radikal. Perbedaan pandangan ini menyebabkan hubungan mereka menjadi tegang."
+      ]
+    },
+    {
+      "tag": "tan_malaka_sjahrir",
+      "patterns": [
+        "Bagaimana hubungan Tan Malaka dengan Sutan Sjahrir?",
+        "Apakah Tan Malaka sepakat dengan Sutan Sjahrir?",
+        "Mengapa Tan Malaka berseberangan dengan Sutan Sjahrir?"
+      ],
+      "responses": [
+        "Tan Malaka dan Sutan Sjahrir memiliki pandangan yang sangat berbeda mengenai strategi perjuangan kemerdekaan. Sutan Sjahrir lebih memilih pendekatan diplomatik dan politik yang lebih lembut, sementara Tan Malaka lebih cenderung pada perjuangan revolusioner dan perubahan sosial yang mendalam. Ketegangan ini semakin terasa setelah kemerdekaan Indonesia."
+      ]
+    },
+    {
+      "tag": "tan_malaka_organisasi_perjuangan",
+      "patterns": [
+        "Apa hubungan Tan Malaka dengan organisasi perjuangan?",
+        "Apa yang dipikirkan Tan Malaka tentang organisasi pergerakan kemerdekaan?"
+      ],
+      "responses": [
+        "Tan Malaka sempat terlibat dengan Sarekat Islam dan Partai Komunis Indonesia (PKI), namun sering kali memiliki perbedaan dengan mereka terkait pendekatan perjuangan. Meskipun Tan Malaka memanfaatkan Sarekat Islam untuk menyebarkan ideologi sosialisme, perbedaan dalam cara mencapai kemerdekaan menyebabkan ia sering kali terpisah dari organisasi-organisasi tersebut.",
+        "Tan Malaka berusaha untuk membawa ideologi sosialisme dan marxisme ke dalam pergerakan kemerdekaan Indonesia, termasuk melalui organisasi seperti Sarekat Islam. Namun, dalam beberapa kesempatan, ia merasa bahwa organisasi-organisasi ini lebih mengutamakan aspek agama atau politik yang lebih moderat, yang tidak sesuai dengan pemikirannya yang radikal.",
+        "Meski terlibat dalam Partai Komunis Indonesia (PKI), Tan Malaka tidak sepenuhnya mendukung kebijakan partai tersebut, terutama setelah perbedaan pandangan muncul dalam strategi perjuangan kemerdekaan. Tan Malaka lebih mendukung perjuangan kelas dan revolusi sosial yang lebih radikal, sementara PKI lebih menekankan pada organisasi gerakan politik yang lebih terstruktur."
+      ]
+    },
+    {
+      "tag": "tan_malaka_masyumi",
+      "patterns": [
+        "Apa hubungan Tan Malaka dengan Masyumi?",
+        "Apakah Tan Malaka mendukung Masyumi?",
+        "Mengapa Tan Malaka tidak sepenuhnya mendukung Masyumi?"
+      ],
+      "responses": [
+        "Tan Malaka sempat berhubungan dengan Masyumi, namun ia tidak sepenuhnya mendukung ideologi partai tersebut yang lebih moderat dan berorientasi pada Islam. Tan Malaka lebih menekankan pada revolusi sosial dan pembebasan kelas pekerja melalui ideologi marxisme, yang berbeda dengan pendekatan Masyumi yang lebih cenderung pada perjuangan politik yang lebih moderat."
+      ]
+    },
+    {
+      "tag": "tan_malaka_radikal",
+      "patterns": [
+        "Mengapa pemikiran Tan Malaka disebut radikal?",
+        "Apa yang membuat Tan Malaka selalu pindah organisasi?",
+        "Mengapa Tan Malaka tidak pernah bertahan lama di suatu organisasi?",
+        "Mengapa Tan Malaka berpindah-pindah organisasi?",
+        "Apa alasan Tan Malaka sering keluar dari organisasi?"
+      ],
+      "responses": [
+        "Pemikiran Tan Malaka disebut radikal karena ia sangat mendalami ideologi materialisme historis dan marxisme, yang menekankan pentingnya perubahan sosial melalui perjuangan kelas, terutama kelas pekerja dan petani. Ia percaya bahwa untuk mencapai kemerdekaan Indonesia, perubahan mendalam dalam struktur sosial dan ekonomi sangat diperlukan.",
+        "Tan Malaka sering berpindah-pindah organisasi karena perbedaan ideologi dan strategi perjuangan. Ia lebih memilih jalur perjuangan revolusioner, sementara banyak organisasi yang ia ikuti lebih mengutamakan pendekatan moderat atau diplomatik. Hal ini menyebabkan Tan Malaka merasa tidak sejalan dengan organisasi-organisasi tersebut.",
+        "Tan Malaka sering kali tidak puas dengan strategi organisasi yang lebih mengutamakan nasionalisme tanpa memperhatikan pembebasan sosial-ekonomi. Ia merasa bahwa perjuangan kemerdekaan harus disertai dengan perubahan radikal dalam tatanan sosial dan ekonomi, yang mengarah pada sistem sosialisme atau komunisme.",
+        "Selain perbedaan ideologi, Tan Malaka juga sering kali dipaksa untuk pindah organisasi karena penganiayaan dan pengasingan oleh pihak kolonial Belanda dan oleh kelompok-kelompok dalam negeri yang tidak sejalan dengan pemikirannya. Ini memaksa Tan Malaka untuk mencari aliansi baru yang lebih mendukung pandangannya."
+      ]
+    },
+    {
+      "tag": "tan_malaka_relevansi_saat_ini",
+      "patterns": [
+        "Mengapa Tan Malaka ramai dibicarakan saat ini?",
+        "Apa yang membuat nama Tan Malaka relevan sekarang?",
+        "Mengapa pemikiran Tan Malaka penting di zaman sekarang?",
+        "Mengapa Tan Malaka rame dibicarakan sekarang?"
+      ],
+      "responses": [
+        "Tan Malaka kembali dibicarakan karena pemikiran sosial dan politiknya yang masih relevan dengan kondisi sosial dan politik Indonesia saat ini. Pemikiran tentang materialisme, dialektika, dan logika sangat berguna untuk menganalisis ketidakadilan sosial dan politik.",
+        "Pemikiran Tan Malaka tentang kapitalisme dan perjuangan kelas menjadi penting di era modern, di mana ketimpangan sosial dan ekonomi semakin terasa. Banyak aktivis sosial yang merujuk kepada Tan Malaka untuk menguatkan ideologi perjuangan mereka.",
+        "Tan Malaka juga kembali dibicarakan dalam wacana nasionalisme, terutama tentang pentingnya kemerdekaan rakyat Indonesia dari penjajahan ekonomi dan pengaruh asing. Ide-idenya tentang kedaulatan dan kebebasan tetap relevan dengan perdebatan mengenai identitas bangsa Indonesia."
+      ]
+    },
+    {
+      "tag": "tan_malaka_kritik_terhadap_kapitalisme",
+      "patterns": [
+        "Apa yang Tan Malaka katakan tentang kapitalisme?",
+        "Bagaimana Tan Malaka mengkritik kapitalisme?",
+        "Kenapa Tan Malaka kritis terhadap kapitalisme?"
+      ],
+      "responses": [
+        "Tan Malaka mengkritik kapitalisme karena dianggap sebagai sistem yang hanya menguntungkan segelintir orang dan menindas rakyat banyak. Ia melihat kapitalisme sebagai bentuk penjajahan ekonomi yang harus dihapuskan untuk mencapai kebebasan dan keadilan sosial.",
+        "Dalam pandangan Tan Malaka, kapitalisme berfungsi untuk memperkaya kelas penguasa dan memperdalam ketimpangan sosial. Ia menyerukan perlunya revolusi untuk menggantikan sistem kapitalis dengan sistem yang lebih adil bagi seluruh rakyat."
+      ]
+    },
+    {
+      "tag": "tan_malaka_gerakan_sosial",
+      "patterns": [
+        "Bagaimana pemikiran Tan Malaka mempengaruhi gerakan sosial?",
+        "Apa pengaruh Tan Malaka terhadap aktivisme sosial?",
+        "Mengapa pemikiran Tan Malaka penting bagi gerakan sosial?"
+      ],
+      "responses": [
+        "Pemikiran Tan Malaka tentang perjuangan kelas, materialisme, dan kebebasan rakyat sangat mempengaruhi gerakan sosial yang menuntut keadilan sosial dan hak asasi manusia. Banyak aktivis yang merujuk kepada Tan Malaka untuk memperkuat dasar ideologi mereka dalam berjuang.",
+        "Tan Malaka menjadi inspirasi bagi banyak gerakan sosial, karena pemikirannya yang berfokus pada pembebasan rakyat dari penindasan ekonomi dan politik. Ia juga menyerukan perlunya kesadaran kelas dalam perjuangan sosial."
+      ]
+    },
+    {
+      "tag": "tan_malaka_nasionalisme",
+      "patterns": [
+        "Apa pandangan Tan Malaka tentang nasionalisme?",
+        "Bagaimana Tan Malaka melihat kemerdekaan Indonesia?",
+        "Apa arti nasionalisme bagi Tan Malaka?"
+      ],
+      "responses": [
+        "Tan Malaka menganggap nasionalisme sebagai perjuangan untuk membebaskan rakyat dari penjajahan baik fisik maupun ekonomi. Nasionalisme yang diajukan Tan Malaka adalah nasionalisme yang berfokus pada kemerdekaan rakyat Indonesia secara menyeluruh, bukan hanya kemerdekaan politik semata.",
+        "Bagi Tan Malaka, nasionalisme bukan hanya tentang kebanggaan terhadap tanah air, tetapi tentang pemberdayaan rakyat dan pembebasan dari segala bentuk penindasan, terutama dalam konteks penjajahan ekonomi dan sosial."
+      ]
+    },
+    {
+      "tag": "pencarian_tan_malaka",
+      "patterns": [
+        "Apakah benar Tan Malaka dicari oleh Soekarno untuk memimpin Indonesia?",
+        "Mengapa Soekarno mencari Tan Malaka?",
+        "Apa hubungan antara Soekarno dan Tan Malaka setelah kemerdekaan?"
+      ],
+      "responses": [
+        "Ya, benar bahwa setelah proklamasi kemerdekaan Indonesia, Soekarno dan Hatta sempat mencari Tan Malaka untuk membantu memimpin Indonesia. Tan Malaka yang dikenal dengan pemikiran revolusionernya dianggap bisa memberikan kontribusi besar dalam membangun Indonesia yang merdeka.",
+        "Setelah Indonesia merdeka pada 1945, Soekarno dan Hatta menghadapi tantangan besar dalam mengatur pemerintahan. Mereka mencari Tan Malaka, yang saat itu berada di luar negeri, karena pengaruhnya yang besar dalam gerakan sosialisme dan revolusi.",
+        "Namun, meskipun Soekarno berusaha mencari Tan Malaka untuk bergabung dengan pemerintahan, hubungan keduanya tidak berjalan mulus karena perbedaan ideologi yang sangat mendalam. Tan Malaka lebih condong ke ideologi marxisme, yang tidak sejalan dengan pandangan Soekarno dan Hatta pada saat itu."
+      ]
+    },
+    {
+      "tag": "madilog_pengertian",
+      "patterns": [
+        "Apa itu Madilog?",
+        "Jelaskan tentang Madilog.",
+        "Apa yang dimaksud dengan Madilog karya Tan Malaka?"
+      ],
+      "responses": [
+        "Madilog adalah singkatan dari Materialisme, Dialektika, dan Logika, sebuah buku yang ditulis oleh Tan Malaka pada tahun 1943.",
+        "Buku ini merupakan panduan untuk berpikir ilmiah, kritis, dan logis dalam menghadapi tantangan masyarakat."
+      ]
+    },
+    {
+      "tag": "madilog_isi",
+      "patterns": [
+        "Apa isi buku Madilog?",
+        "Jelaskan elemen-elemen dalam Madilog.",
+        "Apa yang dibahas dalam Madilog?"
+      ],
+      "responses": [
+        "Madilog membahas tiga elemen utama: Materialisme, Dialektika, dan Logika.",
+        "Materialisme menekankan pemahaman dunia berdasarkan kenyataan objektif, Dialektika melihat perubahan melalui konflik dan resolusi, sementara Logika digunakan untuk berpikir rasional dan sistematis."
+      ]
+    },
+    {
+      "tag": "madilog_tujuan",
+      "patterns": [
+        "Apa tujuan Madilog?",
+        "Mengapa Tan Malaka menulis Madilog?",
+        "Apa yang ingin dicapai oleh Tan Malaka melalui Madilog?"
+      ],
+      "responses": [
+        "Madilog bertujuan untuk mengedukasi masyarakat Indonesia agar berpikir ilmiah dan meninggalkan cara berpikir mistis dan feodal.",
+        "Tan Malaka ingin membangun kesadaran politik dan sosial serta memberikan dasar filosofis untuk perjuangan kemerdekaan Indonesia."
+      ]
+    },
+    {
+      "tag": "madilog_pengaruh",
+      "patterns": [
+        "Apa pengaruh Madilog?",
+        "Seberapa penting Madilog bagi perjuangan Indonesia?",
+        "Bagaimana Madilog memengaruhi pemikiran di Indonesia?"
+      ],
+      "responses": [
+        "Madilog menjadi inspirasi bagi banyak tokoh pergerakan kemerdekaan Indonesia dan mendorong pentingnya pendidikan serta berpikir ilmiah.",
+        "Pemikiran dalam Madilog dianggap mendahului zamannya dan menjadi rujukan dalam memahami perjuangan progresif di Indonesia."
+      ]
+    },
+    {
+      "tag": "madilog_kritik",
+      "patterns": [
+        "Apakah ada kritik terhadap Madilog?",
+        "Apa kekurangan buku Madilog?",
+        "Apa pendapat kritikus tentang Madilog?"
+      ],
+      "responses": [
+        "Beberapa kritikus menganggap Madilog terlalu kompleks untuk masyarakat awam pada masa itu.",
+        "Selain itu, pemikiran Tan Malaka dalam Madilog dikritik karena dianggap terlalu idealis dan sulit diimplementasikan dalam praktik politik."
+      ]
+    },
+    {
+      "tag": "madilog_materialisme",
+      "patterns": [
+        "Apa itu materialisme dalam Madilog?",
+        "Jelaskan tentang materialisme dalam karya Tan Malaka.",
+        "Apa hubungan materialisme dengan Madilog?"
+      ],
+      "responses": [
+        "Materialisme adalah pandangan bahwa realitas ditentukan oleh kenyataan objektif, bukan oleh ide atau keyakinan spiritual.",
+        "Dalam Madilog, materialisme digunakan untuk memahami dunia berdasarkan fakta, menolak mistisisme, dan menghubungkannya dengan perjuangan sosial."
+      ]
+    },
+    {
+      "tag": "madilog_dialektika",
+      "patterns": [
+        "Apa itu dialektika dalam Madilog?",
+        "Jelaskan konsep dialektika yang digunakan Tan Malaka.",
+        "Bagaimana dialektika berperan dalam perubahan sosial?"
+      ],
+      "responses": [
+        "Dialektika adalah metode berpikir yang melihat perubahan sebagai hasil dari konflik antara gagasan atau kondisi yang bertentangan.",
+        "Dalam Madilog, dialektika mencakup proses tesis, antitesis, dan sintesis untuk menjelaskan transformasi sosial."
+      ]
+    },
+    {
+      "tag": "madilog_logika",
+      "patterns": [
+        "Apa itu logika dalam Madilog?",
+        "Bagaimana Tan Malaka menjelaskan logika?",
+        "Mengapa logika penting dalam Madilog?"
+      ],
+      "responses": [
+        "Logika adalah alat untuk berpikir secara rasional, sistematis, dan konsisten dalam memahami realitas.",
+        "Dalam Madilog, logika membantu menganalisis masalah secara terstruktur dan menemukan solusi berdasarkan fakta, bukan emosi atau dogma."
+      ]
+    },
+    {
+      "tag": "madilog_keterkaitan",
+      "patterns": [
+        "Bagaimana kaitan antara materialisme, dialektika, dan logika?",
+        "Apa hubungan ketiga elemen dalam Madilog?",
+        "Mengapa materialisme, dialektika, dan logika saling berhubungan?"
+      ],
+      "responses": [
+        "Materialisme, Dialektika, dan Logika adalah kerangka berpikir terpadu dalam Madilog. Materialisme memberikan dasar analisis, dialektika menjelaskan perubahan, dan logika memastikan pemikiran rasional.",
+        "Ketiga konsep ini saling melengkapi untuk membantu memahami realitas, menciptakan perubahan, dan mengambil keputusan berdasarkan fakta."
+      ]
+    },
+    {
+      "tag": "madilog_penerapan",
+      "patterns": [
+        "Bagaimana penerapan Madilog dalam kehidupan sehari-hari?",
+        "Apa kegunaan Madilog dalam perjuangan sosial?",
+        "Bagaimana Madilog dapat diterapkan dalam pendidikan?"
+      ],
+      "responses": [
+        "Madilog dapat diterapkan dalam kehidupan sehari-hari untuk berpikir kritis dan rasional, menyelesaikan masalah, dan membuat keputusan berdasarkan fakta.",
+        "Dalam perjuangan sosial, Madilog membantu menganalisis kekuasaan, memahami dinamika perjuangan kelas, dan merancang strategi perubahan.",
+        "Dalam pendidikan, Madilog mendorong pembentukan masyarakat yang ilmiah, kritis, dan rasional."
+      ]
+    },
+    {
+      "tag": "materialisme_contoh",
+      "patterns": [
+        "Apa contoh penerapan materialisme sehari-hari?",
+        "Bagaimana materialisme digunakan dalam kehidupan sehari-hari?",
+        "Contoh sederhana konsep materialisme?"
+      ],
+      "responses": [
+        "Contoh materialisme dalam sehari-hari adalah memahami bahwa kebutuhan hidup seperti makanan, air, dan tempat tinggal adalah dasar utama kesejahteraan masyarakat. Misalnya, memperhatikan distribusi pangan secara adil untuk mengatasi kelaparan.",
+        "Dalam pekerjaan, materialisme berarti memahami bahwa hasil kerja nyata dan produktivitas lebih penting daripada opini atau pujian yang tidak berdasarkan kenyataan."
+      ]
+    },
+    {
+      "tag": "dialektika_contoh",
+      "patterns": [
+        "Apa contoh penerapan dialektika sehari-hari?",
+        "Bagaimana dialektika digunakan dalam kehidupan sehari-hari?",
+        "Contoh sederhana konsep dialektika?"
+      ],
+      "responses": [
+        "Contoh dialektika dalam kehidupan sehari-hari adalah debat konstruktif antara dua orang yang berbeda pendapat. Dari diskusi tersebut muncul solusi baru yang menggabungkan kelebihan kedua sudut pandang.",
+        "Dalam belajar, konflik antara pemahaman lama dan informasi baru yang bertentangan dapat menghasilkan wawasan baru yang lebih mendalam."
+      ]
+    },
+    {
+      "tag": "logika_contoh",
+      "patterns": [
+        "Apa contoh penerapan logika sehari-hari?",
+        "Bagaimana logika digunakan dalam kehidupan sehari-hari?",
+        "Contoh sederhana konsep logika?"
+      ],
+      "responses": [
+        "Contoh logika adalah ketika seseorang merencanakan perjalanan dan memutuskan rute berdasarkan jarak terpendek dan waktu tercepat, bukan hanya berdasarkan perkiraan tanpa data.",
+        "Dalam berbelanja, logika digunakan untuk membandingkan harga dan kualitas barang agar mendapatkan produk terbaik dengan harga yang sesuai."
+      ]
+    },
+    {
+      "tag": "madilog_contoh",
+      "patterns": [
+        "Apa contoh penerapan Madilog dalam kehidupan sehari-hari?",
+        "Bagaimana ketiga konsep Madilog diterapkan dalam sehari-hari?",
+        "Contoh sederhana penerapan Madilog?"
+      ],
+      "responses": [
+        "Contoh penerapan Madilog: Jika ingin memperbaiki hasil belajar, seseorang menggunakan logika untuk menganalisis metode belajar yang paling efektif, dialektika untuk mengidentifikasi konflik antara metode lama dan baru, serta materialisme untuk memastikan metode tersebut memberikan hasil nyata.",
+        "Dalam konflik kerja tim, Madilog dapat diterapkan dengan menganalisis fakta yang ada (materialisme), mengidentifikasi sudut pandang yang bertentangan (dialektika), dan mencari solusi terbaik berdasarkan data dan logika rasional (logika)."
+      ]
+    },
+    {
+      "tag": "pendekatan_moderat_pki",
+      "patterns": [
+        "Apa yang dimaksud pendekatan moderat dalam PKI?",
+        "Bagaimana PKI berjuang dengan pendekatan moderat?",
+        "Apa perbedaan pendekatan PKI dengan Tan Malaka?",
+        "Mengapa PKI disebut menggunakan pendekatan moderat?"
+      ],
+      "responses": [
+        "Pendekatan moderat dalam PKI pada awalnya mengedepankan perjuangan yang lebih bertahap dan diplomatik. PKI tidak langsung mengedepankan revolusi, tetapi berusaha membangun aliansi dengan kelompok lain, seperti organisasi buruh dan nasionalis, untuk mencapai kemerdekaan Indonesia. PKI juga sering kali mencari kompromi politik dalam perjuangan, yang berbeda dengan pendekatan radikal Tan Malaka.",
+        "PKI pada awalnya lebih fokus pada diplomasi dan perjuangan kelas pekerja secara bertahap, bukan melalui revolusi yang cepat dan drastis. Mereka mencoba menggabungkan perjuangan kemerdekaan dengan pembebasan kelas pekerja dan petani, namun dalam cara yang lebih terorganisir dan moderat."
+      ]
+    },
+    {
+      "tag": "pendekatan_moderat_sarekat_islam",
+      "patterns": [
+        "Apa yang dimaksud pendekatan moderat dalam Sarekat Islam?",
+        "Bagaimana Sarekat Islam berjuang dengan pendekatan moderat?",
+        "Mengapa Sarekat Islam menggunakan pendekatan moderat?",
+        "Apa perbedaan pendekatan Sarekat Islam dengan Tan Malaka?"
+      ],
+      "responses": [
+        "Pendekatan moderat dalam Sarekat Islam lebih mengutamakan perjuangan ekonomi dan sosial secara bertahap. Organisasi ini berfokus pada pembelaan terhadap umat Islam dan peningkatan kesejahteraan ekonomi umat, serta menciptakan solidaritas antar umat Islam Indonesia. Mereka berjuang dengan cara yang lebih terorganisir dan tidak terlalu mengedepankan perubahan sosial-ekonomi yang drastis.",
+        "Sarekat Islam memilih perjuangan yang lebih moderat dan diplomatik, dengan mengutamakan persatuan nasional. Mereka berusaha memperbaiki kondisi sosial-ekonomi umat Islam melalui jalur yang lebih bertahap, yang berbeda dengan pendekatan radikal yang dianut oleh Tan Malaka."
       ]
     }
   ]
